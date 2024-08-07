@@ -1,8 +1,8 @@
 {
     "token": "",
     "language": "en",
-    "prefix": "!",
-    "mongodbUri": "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
+    "prefix": "M$",
+    "mongodbUri": "mongodb+srv://mrakchidev:NntbIzXC7WmzSNal@cluster0.1ncvd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     "geniusToken": "0CHr9jtPjR7EKraXUVv6__8ELmEwFeUwt5vYAhk-is_fGOq-10-epdMzESkMPUnf",
     "excessCommands": {
         "utility": true,
