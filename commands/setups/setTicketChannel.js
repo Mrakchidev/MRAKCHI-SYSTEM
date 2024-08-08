@@ -73,7 +73,7 @@ module.exports = {
         .setAuthor({ 
             name: "Alert!", 
             iconURL: cmdIcons.dotIcon ,
-            url: "https://discord.gg/xQF9f9yUEM"
+            url: "https://discord.gg/dYhpBJJVNe"
         })
         .setDescription('- This command can only be used through slash command!\n- Please use `/setticketchannel`')
         .setTimestamp();
