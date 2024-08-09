@@ -8,7 +8,7 @@ module.exports = {
     async execute(interaction) {
         const supportServerLink = lang.supportServerLink;
         const githubLink = lang.githubLink;
-        const replitLink = lang.replitLink;
+        const instagramLink = lang.instagramLink;
         const youtubeLink = lang.youtubeLink;
 
         const embed = new EmbedBuilder()
@@ -23,8 +23,7 @@ module.exports = {
                 - ${lang.discord} - ${supportServerLink}
                 
                 ➡️ **${lang.followUsOn}:**
-                - ${lang.github} - ${githubLink}
-                - ${lang.replit} - ${replitLink}
+                - ${lang.instagram} - ${instagramLink}
                 - ${lang.youtube} - ${youtubeLink}
             `)
             .setImage(lang.supportImageURL)
