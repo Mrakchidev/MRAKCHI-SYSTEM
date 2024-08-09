@@ -7,7 +7,7 @@ module.exports = {
         .setDescription(lang.supportDescription),
     async execute(interaction) {
         const supportServerLink = lang.supportServerLink;
-        const githubLink = lang.githubLink;
+        const sitewebLink = lang.sitewebLink;
         const instagramLink = lang.instagramLink;
         const youtubeLink = lang.youtubeLink;
 
@@ -24,6 +24,7 @@ module.exports = {
                 
                 ➡️ **${lang.followUsOn}:**
                 - ${lang.instagram} - ${instagramLink}
+                - ${lang.siteweb} - ${sitewebLink}
                 - ${lang.youtube} - ${youtubeLink}
             `)
             .setImage(lang.supportImageURL)
