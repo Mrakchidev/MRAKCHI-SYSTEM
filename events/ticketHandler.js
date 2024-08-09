@@ -57,15 +57,12 @@ async function monitorConfigChanges(client) {
           
                     const embed = new EmbedBuilder()
                         .setAuthor({
-                            name: "Welcome to Ticket Support",
+                            name: "Welcome to your ticket",
                             iconURL: ticketIcons.mainIcon,
-                            url: "https://discord.gg/xQF9f9yUEM"
+                            url: "https://discord.gg/dYhpBJJVNe"
                         })
-                        .setDescription('- Please click below menu to create a new ticket.\n\n' +
-                            '**Ticket Guidelines:**\n' +
-                            '- Empty tickets are not permitted.\n' +
-                            '- Please be patient while waiting for a response from our support team.')
-                        .setFooter({ text: 'We are here to Help!', iconURL: ticketIcons.modIcon })
+                        .setDescription('')
+                        .setFooter({ text: 'We are here to /help', iconURL: ticketIcons.modIcon })
                         .setColor('#00FF00')
                         .setTimestamp();
 
@@ -75,7 +72,6 @@ async function monitorConfigChanges(client) {
                         .addOptions([
                             { label: '🆘 Support', value: 'support' },
                             { label: '📂 Suggestion', value: 'suggestion' },
-                            { label: '💜 Feedback', value: 'feedback' },
                             { label: '⚠️ Report', value: 'report' }
                         ]);
 
@@ -134,11 +130,11 @@ async function handleSelectMenu(interaction, client) {
 
     const ticketEmbed = new EmbedBuilder()
         .setAuthor({
-            name: "Support Ticket",
+            name: "Your Ticket",
             iconURL: ticketIcons.modIcon,
-            url: "https://discord.gg/xQF9f9yUEM"
+            url: "https://discord.gg/dYhpBJJVNe"
         })
-        .setDescription(`Hello ${user}, welcome to our support!\n- Please provide a detailed description of your issue\n- Our support team will assist you as soon as possible.\n- Feel free to open another ticket if this was closed.`)
+        .setDescription(`Hello ${user}, Welcome to your ticket!\n- Please provide a detailed description of your issue\n- Our support team will assist you as soon as possible.\n- Feel free to open another ticket if this was closed.`)
         .setFooter({ text: 'Your satisfaction is our priority', iconURL: ticketIcons.heartIcon })
         .setColor('#00FF00')
         .setTimestamp();
@@ -157,7 +153,7 @@ async function handleSelectMenu(interaction, client) {
         .setAuthor({ 
             name: "Ticket Created!", 
             iconURL: ticketIcons.correctIcon,
-            url: "https://discord.gg/xQF9f9yUEM"
+            url: "https://discord.gg/dYhpBJJVNe"
         })
         .setDescription(`- Your ${ticketType} ticket has been created.`)
         .addFields(
@@ -200,7 +196,7 @@ async function handleCloseButton(interaction, client) {
             .setAuthor({ 
                 name: "Ticket closed!", 
                 iconURL: ticketIcons.correctrIcon,
-                url: "https://discord.gg/xQF9f9yUEM"
+                url: "https://discord.gg/dYhpBJJVNe"
             })
             .setDescription(`- Your ticket has been closed.`)
             .setTimestamp()
