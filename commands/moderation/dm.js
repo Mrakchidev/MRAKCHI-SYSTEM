@@ -35,7 +35,7 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.dmAlert, 
                     iconURL: cmdIcons.dotIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/dYhpBJJVNe"
                 })
                 .setDescription(lang.dmOnlySlashCommand)
                 .setTimestamp();
